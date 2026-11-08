@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "stash",
+  "version": "${version}",
+  "name": "Stash",
+  "description": "запоминает сундуки, бочки и шалкеры, которые ты открывал, и ищет, где лежит нужный предмет",
+  "license": "MIT",
+  "authors": [
+    "PrincessXVII"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.stash.client.StashClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
